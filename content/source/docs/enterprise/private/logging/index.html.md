@@ -57,11 +57,10 @@ The audit log will be updated when any resource managed by Terraform Enterprise 
   * Users
   * Variables
 
-
 When requests occur, these are the pieces of information that will be logged:
 
   1. The actor
-		* Users (including IP address and token used)
+		* Users (and their IP Address)
 		* Version Control System users (identified in webhooks)
 		* Service accounts
 		* Terraform Enterprise
